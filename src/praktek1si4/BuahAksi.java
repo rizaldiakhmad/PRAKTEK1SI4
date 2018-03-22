@@ -11,6 +11,6 @@ package praktek1si4;
  */
 public class BuahAksi {
     public static void main(String[] args) {
-        
+        Buah Mangga = new Buah();
     }
 }
