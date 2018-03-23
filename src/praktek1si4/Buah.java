@@ -13,14 +13,16 @@ public class Buah {
      String warna;
      String rasa;
      String bentuk;
-     int ukuran;
-     int masapanen;
+     String berat;
+     String masapanen;
+     String SPACI;
      
-     void cetakInfo(){
-     System.out.println("warna      :"+warna);
-     System.out.println("rasa       :"+rasa);
-     System.out.println("bentuk     :"+bentuk);
-     System.out.println("ukuran     :"+ukuran);
-     System.out.println("masa panen :"+masapanen);
+     void perawatan(){
+     System.out.println("warna      : "+warna);
+     System.out.println("rasa       : "+rasa);
+     System.out.println("bentuk     : "+bentuk);
+     System.out.println("berat      : "+berat);
+     System.out.println("masa panen : "+masapanen);
+     System.out.println(""+SPACI);
     }
 }
